@@ -1,0 +1,9 @@
+<li><a href="A0.html">Assignment A0</a></li>
+<li><a href="A1.html">Assignment A1</a></li>
+<li><a href="A2.html">Assignment A2</a></li>
+<li><a href="A3.html">Assignment A3</a></li>
+<li><a href="A4.html">Assignment A4</a></li>
+<li><a href="A5.html">Assignment A5</a></li>
+<li><a href="A6.html">Assignment A6</a></li>
+<li><a href="A7.html">Assignment A7</a></li>
+<li><a href="A8.html">Assignment A8</a></li>

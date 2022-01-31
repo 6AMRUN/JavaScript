@@ -1,0 +1,26 @@
+/*!
+ *    FileName:  A3.css
+ *  Assignment:  Style sheet for assignment: A3
+ *      Course:  CIT 152
+ *  Instructor:  Dr. Brodersen
+ *
+ *      Author:  Alexies Farinas | ALEXIES.FARINAS@student.csn.edu
+ *        Date:  2/18/20201
+ *
+ * Description: unique selectors for formatting A3.html          
+ *
+ */
+
+/* import the css from the index.css document for consistant formatting */
+@import "index.css";
+ 
+
+/* populate the rest of this document with the css code to format A3.html */
+
+.bold{
+    font-weight: bold;
+}
+
+section li {
+	line-height: 1.5em;
+} 

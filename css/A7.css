@@ -1,0 +1,64 @@
+/**
+ *
+ *    FileName:  A7.css
+ *  Assignment:  Style sheet for assignment: A7
+ *      Course:  CIT 152
+ *  Instructor:  Dr. Brodersen
+ *
+ *      Author:  Alexies Farinas | ALEXIES.FARINAS@student.csn.edu
+ *        Date:  3/25/2021
+ *
+ * Description: unique selectors for formatting A7.html          
+ *
+ **/
+
+/* import the css from the index.css document for consistant formatting */
+@import "index.css";
+
+/* populate the rest of this document with the css code to format A7.html */
+
+th,
+td {
+    border: 1px solid;
+    padding: .5em;
+    text-align: center;
+}
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+}
+
+
+button {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    background-color: #282828;
+    border: none;
+    color: white;
+    font-size: 10px;
+    padding: 15px 32px;
+    text-decoration: none;
+}
+
+.search {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding: 0.5em;
+}
+
+.button-group {
+    padding-bottom: 2em;
+}

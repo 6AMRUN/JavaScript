@@ -1,0 +1,39 @@
+/**
+ *    FileName:  A6.css
+ *  Assignment:  Style sheet for assignment: a6
+ *      Course:  CIT 152
+ *  Instructor:  Dr. Brodersen
+ *
+ *      Author:  Alexies Farinas | ALEXIES.FARINAS@student.csn.edu
+ *        Date:  3/16/2021
+ *
+ * Description: unique selectors for formatting A6.html          
+ *
+ **/
+
+/* import the css from the index.css document for consistant formatting */
+@import "index.css";
+
+/* populate the rest of this document with the css code to format A6.html */
+/* =t tables
+------------------------------*/
+
+th,
+td {
+    border: 1px solid;
+    padding: .5em;
+    text-align: center;
+}
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-bottom: .5em;
+}
