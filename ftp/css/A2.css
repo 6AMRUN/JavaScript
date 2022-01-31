@@ -1,0 +1,85 @@
+/*!
+ *    FileName:  A2.css
+ *  Assignment:  Style sheet for assignment: A2
+ *      Course:  CIT 152
+ *  Instructor:  Dr. Brodersen
+ *
+ *      Author:  Alexies Farinas | ALEXIES.FARINAS@student.csn.edu
+ *        Date:  2/10/20201
+ *
+ * Description: unique selectors for formatting a2.html          
+ *
+ */
+
+/* import the css from the index.css document for consistant formatting */
+@import "index.css";
+
+
+/* populate the rest of this document with the css code to format A2.html */
+
+/* Article */
+img {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+section li {
+    line-height: 1.5em;
+}
+
+.first {
+    text-indent: 2em;
+}
+
+article h2 {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+    padding: 1px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Buttons */
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.bio {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.btn-group button {
+    background-color: #282828;
+    /* Green background */
+    border: 1px solid #888;
+    color: #888;
+    padding: 10px;
+    width: 100%;
+    display: block;
+}

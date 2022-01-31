@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>A2</title>
+    <link rel="stylesheet" type="text/css" href="css/A2.css">
+</head>
+
+<body>
+    <header>
+        <h1>CIT 152 JavaScript Programming </h1>
+        <h2>A2</h2>
+        <h2>Alexies Farinas</h2>
+        <h2><a href="index.html">Home</a></h2>
+    </header>
+    <div class="container">
+        <nav class="sitenavigation">
+            <ul id="menu">
+                <!-- Inserting The Menu here -->
+            </ul>
+        </nav>
+        <main>
+            <article>
+                <div class="btn-group">
+                    <div class="buttons">
+                        <button type="b1" id="show">Show My Bio</button>
+                        <button type="b2" id="hide">Hide My Bio</button>
+                    </div>
+                </div>
+                <section class="bio" id="target">
+                    <h2 class="left">About Me</h2>
+                    <p class="first">Hello! My name is Alexies. People either call me Lex or Lexi, whichever you prefer. I am currently majoring in Web Development and this is my last year. Hopefully, I will be graduating in Fall of 2021. </p>
+                    <p class="first"> Some things I like to do are play League of Legends and stream to a small community on Twitch on my free time.</p>
+                    <p>
+                        <img src="images/me.png" alt="me" title="A photo of me when I went to Catalina Island." width="4032" height="3024" />
+                    </p>
+                    <p class="center">
+                        Here is a photo of me when I had went to Catalina Island.
+                    </p>
+                </section>
+                <section>
+                    <h2 class="left">For this assigment I did the following:</h2>
+                    <ul>
+                        <li>A header</li>
+                        <li>Navigation to the assignments</li>
+                        <li>An article with 2 sections</li>
+                        <ul>
+                            <li>Created 2 Buttons that will show &amp; hide the bio</li>
+                            <li>A section with an ID containing bio</li>
+                            <li>A section that provides information on what I did for this website</li>
+                        </ul>
+                        <li>A footer containing a copyright and my CSN email</li>
+                        <li>Style Sheets for both Java and CSS</li>
+                    </ul>
+                </section>
+            </article>
+        </main>
+    </div>
+    <footer>
+        <p>
+            &copy; Copyright
+            <script>
+                document.write(new Date().getFullYear().toString())
+
+            </script>. All Rights Reserved.
+        </p>
+        <p> ALEXIES.FARINAS@student.csn.edu </p>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script>
+        showMenu()
+
+    </script>
+    <script src="js/A2.js"></script>
+</body>
+
+</html>
